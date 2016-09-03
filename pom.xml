@@ -166,13 +166,6 @@
 		    <groupId>org.apache.commons</groupId>
 		    <artifactId>commons-lang3</artifactId>
 		    <version>3.4</version>
-		</dependency> 
-		
-		<dependency>
-		    <groupId>org.apache.tomcat</groupId>
-		    <artifactId>tomcat-servlet-api</artifactId>
-			<version>8.0.36</version>
-			<scope>provided</scope>
 		</dependency>
 		
 		<dependency>
@@ -206,6 +199,6 @@
 		</dependency>
   </dependencies>
   <build>
-    <finalName>solr-test</finalName>
+    <finalName>luna5th</finalName>
   </build>
 </project>
