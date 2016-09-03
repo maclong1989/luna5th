@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx-4.3.xsd
+		http://www.springframework.org/schema/util
+		http://www.springframework.org/schema/util/spring-util-4.3.xsd
+		">
+    
+<!--    <context:property-placeholder location="classpath:config/db.properties" ignore-unresolvable="true"/> -->
+
+<!-- 	<bean id="dataSource"   -->
+<!--     	class="com.mchange.v2.c3p0.ComboPooledDataSource"   -->
+<!--     	destroy-method="close">   -->
+<!-- 	    <property name="driverClass" value="${c3p0.driverClass}"></property>   -->
+<!-- 	    <property name="jdbcUrl" value="${c3p0.url}"></property>   -->
+<!-- 	    <property name="user" value="${c3p0.user}"></property>   -->
+<!-- 	    <property name="password" value="${c3p0.password}"></property>   -->
+<!-- 	    <property name="acquireIncrement" value="${c3p0.acquireIncrement}"></property>   -->
+<!-- 	    <property name="initialPoolSize" value="${c3p0.initialPoolSize}"></property>   -->
+<!-- 	    <property name="maxIdleTime" value="${c3p0.maxIdleTime}"></property>   -->
+<!-- 	    <property name="maxPoolSize" value="${c3p0.maxPoolSize}"></property>   -->
+<!-- 	    <property name="minPoolSize" value="${c3p0.minPoolSize}"></property>   -->
+<!-- 	    <property name="acquireRetryDelay" value="1000"></property>   -->
+<!-- 	    <property name="acquireRetryAttempts" value="60"></property>   -->
+<!-- 	    <property name="breakAfterAcquireFailure" value="false"></property>   -->
+<!-- 	</bean>   -->
+	
+<!-- 	<bean id="ysSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"> -->
+<!-- 		<property name="dataSource" ref="dataSource"></property> -->
+<!-- 		<property name="configLocation" value="classpath:config/mybatis-config.xml" />  -->
+<!-- 	</bean> -->
+
+<!-- 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer"> -->
+<!-- 		<property name="basePackage" value="com.jyl.toeat.dao.mapper"></property> -->
+<!-- 		<property name="sqlSessionFactoryBeanName" value="ysSqlSessionFactory" /> -->
+<!-- 	</bean> -->
+
+<!-- 	<bean id="txManager" -->
+<!-- 		class="org.springframework.jdbc.datasource.DataSourceTransactionManager"> -->
+<!-- 		<property name="dataSource" ref="dataSource"></property> -->
+<!-- 	</bean> -->
+
+<!-- 	<tx:annotation-driven transaction-manager="txManager" /> -->
+
+</beans>
