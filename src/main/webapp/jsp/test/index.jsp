@@ -20,9 +20,10 @@
   </script>
   
   <body>
-  	<div style="width:1280px;margin:0 auto;">
+  	<div style="width:1024px;margin:0 auto;">
 		<%@ include file="/jsp/common/title.jsp"%>
-  
+  		<a href="test1.jsp" class="btn btn-primary">原始按钮</a> 
+  		<a href="test2.jsp" class="btn btn-primary">原始按钮</a> 
   	</div>
   </body>
 </html>

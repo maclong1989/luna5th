@@ -22,7 +22,7 @@
   </script>
   
   <body>
-  	<div style="width:1280px;margin:0 auto;">
+  	<div style="width:1024px;margin:0 auto;">
   		<%@ include file="/jsp/common/title.jsp"%>
   	</div>
   </body>
