@@ -24,6 +24,7 @@
 		<%@ include file="/jsp/common/title.jsp"%>
   		<a href="test1.jsp" class="btn btn-primary">原始按钮</a> 
   		<a href="test2.jsp" class="btn btn-primary">原始按钮</a> 
+  		<a href="newsFlow/main.jsp" class="btn btn-primary">新闻广场</a> 
   	</div>
   </body>
 </html>
